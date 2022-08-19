@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+  background-image: url("./assets/judge.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px 175px;
+}
+
+nav {
+  display: flex;
+  background-color: #2b2922;
+  padding: 20px 100px 0px 100px;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  background-color: #2b2922;
+  padding: 80px 90px;
+}
+
+.logo {
+  flex: 1;
+}
+
+img[alt="logo"] {
+  flex: 2;
+  height: 2rem;
+}
+
+.list {
+  display: flex;
+  flex: 1;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.list-item {
+  color: #7c7a72;
+  font-size: 1rem;
+}
+
+.list-item:hover {
+  color: #fff;
+}
+
+.button {
+  /* flex: 1; */
+}
+
+.button button {
+  background-color: #2b2922;
+  color: #918233;
+  border: 1px solid #918233;
+  padding: 10px 40px;
+  font-size: 1rem;
+  border-radius: 9px;
+}
+
+.head {
+  flex: 6;
+}
+
+.head h1 {
+  font-size: 5rem;
+  color: #ffffff;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+main .para {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.para p {
+  font-size: 1.25rem;
+  color: #c7c6c3;
+  text-align: left;
+}
